@@ -73,6 +73,10 @@ The framework was evaluated using real-world disaster imagery collected from dif
 
 # 🏗️ Framework Pipeline
 
+<p align="center">
+<img src="assets/images/framework.png" width="100%">
+</p>
+
 The proposed framework consists of six major stages.
 
 ```text
@@ -193,6 +197,10 @@ Sample images are provided inside the **data/** directory.
 
 The proposed framework uses **SegFormer-B2** as the backbone semantic segmentation model.
 
+<p align="center">
+<img src="assets/images/segformer_architecture.png" width="95%">
+</p>
+
 ### Training Configuration
 
 | Parameter | Value |
@@ -272,6 +280,10 @@ Example results are available inside the **outputs/** directory.
 
 The proposed framework was evaluated using the DeepGlobe Road Extraction dataset and validated on multiple real-world disaster scenarios.
 
+<p align="center">
+<img src="assets/images/segmentation_comparison.png" width="95%">
+</p>
+
 ## Quantitative Performance
 
 | Metric | Score |
@@ -286,6 +298,10 @@ The proposed framework achieved competitive segmentation performance while addit
 ---
 
 # 📈 Training Performance
+
+<p align="center">
+<img src="assets/images/training_results.png" width="95%">
+</p>
 
 The training process employed progressive resolution learning and additional optimization strategies.
 
@@ -306,17 +322,37 @@ The framework was tested on several real disaster scenarios.
 
 ## 🇹🇷 Hatay Earthquake
 
+<p align="center">
+<img src="assets/images/hatay_region.png" width="90%">
+</p>
+
 - Post-earthquake UAV imagery
 - Road accessibility estimation
 - Graph-based connectivity analysis
 
 ## 🇱🇾 Derna Flood
 
+<p align="center">
+<img src="assets/images/derna_region1.png" width="90%">
+</p>
+
+<p align="center">
+<img src="assets/images/northern_derna.png" width="90%">
+</p>
+
+<p align="center">
+<img src="assets/images/derna_validation.png" width="90%">
+</p>
+
 - Flood-damaged transportation network
 - Bridge accessibility analysis
 - OSM graph comparison
 
 ## 🇯🇵 Noto Peninsula Earthquake
+
+<p align="center">
+<img src="assets/images/wajima_validation.png" width="90%">
+</p>
 
 - Satellite imagery analysis
 - Road disruption detection
