@@ -17,6 +17,24 @@ data/deepglobe/
 # Outputs
 outputs/*
 
+!outputs/figures/
+!outputs/figures/**
+
+!outputs/hatay_defne/
+!outputs/hatay_defne/**
+
+!outputs/derna_bridge/
+!outputs/derna_bridge/**
+
+!outputs/kahramanmaras_oam/
+!outputs/kahramanmaras_oam/**
+
+!outputs/wajima_h0v2/
+!outputs/wajima_h0v2/**
+
+!outputs/reyhanli_trunk/
+!outputs/reyhanli_trunk/**
+
 # IDE
 .vscode/
 .idea/
