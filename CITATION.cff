@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: Post-Disaster Road Accessibility Assessment
+message: "If you use this repository, please cite it."
+type: software
+
+authors:
+  - family-names: Aslan
+    given-names: Rukiye
+
+repository-code: https://github.com/rukiyeasllan/post-disaster-road-accessibility
+
+license: MIT
