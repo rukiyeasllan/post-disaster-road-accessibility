@@ -1,0 +1,15 @@
+torch
+torchvision
+numpy
+matplotlib
+opencv-python
+Pillow
+tqdm
+transformers
+segmentation-models-pytorch
+scikit-image
+networkx
+osmnx
+shapely
+rasterio
+pyproj

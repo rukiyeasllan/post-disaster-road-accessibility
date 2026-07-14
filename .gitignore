@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Cache
+cache/
+scripts/cache/
+
+# Models
+models/*.pth
+models/*.pt
+models/*.ckpt
+
+# Dataset
+data/deepglobe/
+
+# Outputs
+outputs/*
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary
+*.log
+*.tmp
+
+# Backup
+*_backup.py
+
+# Large datasets
+deepglobe_backup/
+data/
+
+# Keep documentation inside data
+!data/README.md
