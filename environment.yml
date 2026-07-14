@@ -1,0 +1,26 @@
+name: post-disaster-road-accessibility
+
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - numpy
+  - matplotlib
+  - pillow
+  - tqdm
+  - pip:
+      - transformers
+      - segmentation-models-pytorch
+      - opencv-python
+      - scikit-image
+      - networkx
+      - osmnx
+      - shapely
+      - rasterio
+      - pyproj
